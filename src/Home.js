@@ -18,6 +18,8 @@ function Home() {
                 </div>
                 <div className='home__row'>
                 <Product id='1116' title={'Junglie Funglie Fries, spicy fries to make you scream loud'} price={40} image='https://cdn.pixabay.com/photo/2016/01/26/00/53/potatoe-1161819_1280.jpg' rating={4} />
+                <Product id='1117' title={'Parker Pen: The perfect pen to write down your own stories and make them available to others'} price={25} image='https://cdn.pixabay.com/photo/2019/04/28/15/13/pen-4163403_1280.jpg' rating={4} />
+                <Product id='1118' title={'Christo Jeans: Jeans specially for christites and to have a casual fit for casual occasions'} price={1200} image='https://cdn.pixabay.com/photo/2016/11/29/09/41/bag-1868758_1280.jpg' rating={5} />
                 </div>
             </div>
         </div>
