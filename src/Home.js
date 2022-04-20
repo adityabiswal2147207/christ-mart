@@ -4,6 +4,7 @@ import Product from './Product';
 
 function Home() {
     return (
+        //create a division and giving it a classname and inserting all the products inside that div
         <div className='home'>
             <div className='home__container'>
                 <img className='home__image' src='https://cdn.pixabay.com/photo/2016/01/22/18/59/cyprus-1156434_1280.jpg' alt='' />
