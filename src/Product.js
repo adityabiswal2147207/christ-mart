@@ -3,7 +3,6 @@ import './Product.css';
 
 function Product({title, image, price, rating}) {
     return (
-        //making the div with a class and mapping all the features accordingly
         <div className='product'>
             <div className='product__info'>
                 <p>{title}</p>
@@ -12,7 +11,6 @@ function Product({title, image, price, rating}) {
                     <strong>{price}</strong>
                 </p>
                 <div className='product__rating'>
-                    //mapping the stars according to the value inserted and filling it
                     {Array(rating).fill().map((_, i)=>( <p>⭐️</p>))} 
                 </div>
             </div>
